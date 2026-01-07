@@ -46,13 +46,13 @@ Our goal is to simplify this process using a **natural voice-based AI agent** th
 ## High-Level Architecture
 
 User (Voice)
-↓
+   ↓
 Voice Interface (STT / TTS)
-↓
+   ↓
 Conversation Orchestrator (AI Agent)
-↓
+   ↓
 Rules & Validation Engine
-↓
+   ↓
 Backend API / Storage
 
 
@@ -67,12 +67,11 @@ Backend API / Storage
 ## Repository Structure
 
 voice-admission-assistant/
-├── backend/ # API, rules engine, data handling
-├── frontend/ # UI / voice interface components
-├── docs/ # Architecture and design documentation
+├── backend/        # API, rules engine, data handling
+├── frontend/       # UI and voice interface components
+├── docs/           # Architecture and design documentation
 ├── .gitignore
 └── README.md
-
 
 ---
 
@@ -83,7 +82,6 @@ voice-admission-assistant/
 - Docker & Docker Compose (recommended)
 
 ### Clone the Repository
-```bash
 git clone https://github.com/AdhikariChandraVamsi/voice-admission-assistant.git
 cd voice-admission-assistant
 docker compose up --build
@@ -91,10 +89,8 @@ docker compose up --build
 
 ---
 
-## STEP 2: Commit and push README
+## Commit and push README
 
-```bash
 git add README.md
 git commit -m "Add judge-ready README with architecture and setup"
 git push origin develop
-
