@@ -1,0 +1,10 @@
+# Node / Python
+node_modules/
+__pycache__/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+
